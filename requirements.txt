@@ -1663,3 +1663,5 @@
     }
   ]
 }
+streamlit==1.10.0
+transformers==4.10.2
