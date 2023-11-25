@@ -2,7 +2,7 @@ import streamlit as st
 from transformers import pipeline
 
 # Load pre-trained text classification model from Hugging Face
-classifier = pipeline("sentiment-analysis")
+classifier = pipeline("SamLowe/roberta-base-go_emotions")
 
 # Streamlit app
 def main():
